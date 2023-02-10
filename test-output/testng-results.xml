@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T18:52:02 EET" name="Suite" finished-at="2023-02-10T18:52:37 EET" duration-ms="35546">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T18:52:02 EET" name="Test" finished-at="2023-02-10T18:52:37 EET" duration-ms="35546">
+      <class name="testCases.logoutTest">
+        <test-method signature="user_logout()[pri:0, instance:testCases.logoutTest@437da279]" started-at="2023-02-10T18:52:36 EET" name="user_logout" finished-at="2023-02-10T18:52:37 EET" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_logout -->
+      </class> <!-- testCases.logoutTest -->
+      <class name="testCases.buyProduct">
+        <test-method signature="buy_bag(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.buyProduct@7bab3f1a]" started-at="2023-02-10T18:52:17 EET" name="buy_bag" data-provider="info" finished-at="2023-02-10T18:52:27 EET" duration-ms="10391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hakim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buy_bag -->
+        <test-method signature="buy_Tsshirt()[pri:2, instance:testCases.buyProduct@7bab3f1a]" started-at="2023-02-10T18:52:27 EET" name="buy_Tsshirt" finished-at="2023-02-10T18:52:36 EET" duration-ms="9211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buy_Tsshirt -->
+      </class> <!-- testCases.buyProduct -->
+      <class name="testCases.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.loginTest@31fa1761]" started-at="2023-02-10T18:52:02 EET" name="setup" finished-at="2023-02-10T18:52:10 EET" duration-ms="8670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.loginTest@31fa1761]" started-at="2023-02-10T18:52:11 EET" name="loginTest" data-provider="login" finished-at="2023-02-10T18:52:17 EET" duration-ms="5416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.loginTest@31fa1761]" started-at="2023-02-10T18:52:37 EET" name="tearDown" finished-at="2023-02-10T18:52:37 EET" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
